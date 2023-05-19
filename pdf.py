@@ -7,6 +7,8 @@ pdf.set_font("Arial", size=20)
 pdf.cell(200, 10, txt="Welcome to PythonGuides", ln=1, align="L")
 pdf.output("E:\\OneKnotOne\\whatsapp\\test.pdf") 
 ''' 
+pdf = FPDF(orientation='P', unit='mm', format='A4')
+pdf.add_page()
 # set style and size of font
 # that you want in the pdf
 pdf.set_font("Arial", size = 15)
